@@ -19,6 +19,7 @@
   <title>Rhys Dowsall | Product Manager · Product Owner · Business Analyst</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -124,17 +125,55 @@
           <p class="section-label">PRODUCT LAB · EXPERIMENT 01</p>
           <h2>Would you ship it?</h2>
           <p class="lab-lead">94% accuracy sounds pretty good. But is it good enough?</p>
-          <p>A short experiment in AI product judgement, risk and making decisions with incomplete information.</p>
-          <span class="button light disabled" aria-disabled="true">Coming soon</span>
+          <p>A two-minute experiment in AI product judgement, risk and making decisions with incomplete information.</p>
+          <a class="button light" href="#decision-exercise">Make the call ↓</a>
         </div>
-        <div class="decision-card" aria-label="Product Lab preview">
-          <p class="scenario">AI FEATURE EVALUATION</p>
-          <strong>94%</strong>
-          <span>accuracy</span>
-          <div class="mini-metrics"><span>2.1% hallucination</span><span>+17% CSAT</span><span>£0.11 / conversation</span></div>
-          <p class="question">Would you ship it?</p>
-          <div class="choices"><span>Ship</span><span>Don't ship</span><span>Need more evidence</span></div>
-          <p class="twist">What if the errors involve customer payments?</p>
+        <div id="decision-exercise" class="decision-card" aria-label="Interactive AI product decision exercise">
+          <div id="decision-start">
+            <p class="scenario">AI FEATURE EVALUATION · STAGE 1 OF 2</p>
+            <strong>94%</strong>
+            <span>accuracy</span>
+            <div class="mini-metrics"><span>2.1% hallucination</span><span>+17% CSAT</span><span>£0.11 / conversation</span></div>
+            <h3 class="question">Would you ship it?</h3>
+            <p class="decision-help">Choose using the evidence available. You can revise your call when more context appears.</p>
+            <div class="choices" role="group" aria-label="Initial decision">
+              <button type="button" data-initial-decision="Ship">Ship</button>
+              <button type="button" data-initial-decision="Don't ship">Don't ship</button>
+              <button type="button" data-initial-decision="Need more evidence">Need more evidence</button>
+            </div>
+          </div>
+
+          <div id="decision-evidence" class="decision-stage" hidden>
+            <p class="scenario">NEW EVIDENCE · STAGE 2 OF 2</p>
+            <p class="choice-summary">Your initial call: <strong id="initial-choice"></strong></p>
+            <h3 tabindex="-1">The errors are not evenly distributed.</h3>
+            <p>Some customers receive incorrect payment dates, account balances and arrears information. Aggregate accuracy hides a small number of potentially high-impact failures.</p>
+            <div class="risk-signal"><strong>High-severity risk</strong><span>Financial harm and loss of customer trust</span></div>
+            <p class="question">What is your decision now?</p>
+            <div class="choices" role="group" aria-label="Revised decision">
+              <button type="button" data-revised-decision="Ship broadly">Ship broadly</button>
+              <button type="button" data-revised-decision="Run a controlled pilot">Controlled pilot</button>
+              <button type="button" data-revised-decision="Pause the launch">Pause launch</button>
+            </div>
+          </div>
+
+          <div id="decision-result" class="decision-stage" aria-live="polite" hidden>
+            <p class="scenario">MY PRODUCT CALL</p>
+            <p class="choice-summary">Your revised call: <strong id="revised-choice"></strong></p>
+            <h3 tabindex="-1">Run a controlled, low-risk pilot.</h3>
+            <p>Do not approve a broad release from an aggregate accuracy score. Preserve the value while containing the risk:</p>
+            <ul>
+              <li>Block autonomous answers for payments, balances and arrears.</li>
+              <li>Route high-risk or uncertain cases to a person.</li>
+              <li>Measure errors by severity and customer impact—not just volume.</li>
+              <li>Set stopping thresholds, monitor the pilot and expand only when the evidence supports it.</li>
+            </ul>
+            <p class="decision-takeaway">The important skill is not guessing the “right” first answer. It is identifying missing evidence and adapting the release plan when the risk changes.</p>
+            <div class="decision-actions">
+              <button id="reset-decision" class="reset-button" type="button">Try again</button>
+              <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant" target="_blank" rel="noopener">Explore my AI project ↗</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
