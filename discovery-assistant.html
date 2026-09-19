@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore Rhys Dowsall's AI Product Discovery Assistant: evidence-linked customer feedback analysis with human review.">
+  <meta name="theme-color" content="#132a32">
+  <link rel="canonical" href="https://dowsall.com/discovery-assistant.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dowsall.com/discovery-assistant.html">
+  <meta property="og:title" content="AI Product Discovery Assistant | Rhys Dowsall">
+  <meta property="og:description" content="An interactive demonstration of evidence-linked product discovery with human review.">
+  <title>AI Product Discovery Assistant | Rhys Dowsall</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="discovery-assistant.css?v=1">
+  <script src="discovery-assistant.js?v=1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="demo-nav">
+    <a class="brand" href="/" aria-label="Back to Rhys Dowsall portfolio">RD</a>
+    <a class="back-link" href="/">← Back to portfolio</a>
+  </header>
+
+  <main id="main">
+    <section class="demo-hero">
+      <p class="eyebrow">AI PRODUCT DISCOVERY ASSISTANT · PUBLIC DEMO</p>
+      <h1>Turn feedback into findings—without losing the evidence.</h1>
+      <p class="hero-copy">This prototype shows how AI can help a product team analyse qualitative feedback while keeping source evidence, interpretation and human judgement visibly separate.</p>
+      <div class="principles" aria-label="Product principles">
+        <span>Evidence linked</span>
+        <span>Human reviewed</span>
+        <span>Synthetic data</span>
+        <span>No customer information</span>
+      </div>
+    </section>
+
+    <section class="demo-shell" aria-labelledby="sample-heading">
+      <div class="sample-panel">
+        <div>
+          <p class="section-label">STEP 1 · SAMPLE DATASET</p>
+          <h2 id="sample-heading">Realistic signals, deliberately synthetic data.</h2>
+          <p>The demonstration dataset contains 40 fictional comments from finance users, administrators and managers across support, interviews and surveys.</p>
+        </div>
+
+        <div class="dataset-summary" aria-label="Dataset summary">
+          <div><strong>40</strong><span>feedback records</span></div>
+          <div><strong>3</strong><span>research sources</span></div>
+          <div><strong>3</strong><span>personas</span></div>
+        </div>
+
+        <div class="sample-quotes">
+          <blockquote>
+            “Month end takes forever because I have to export the payment report and reconcile it against our accounting system manually.”
+            <cite>F001 · Support · Finance</cite>
+          </blockquote>
+          <blockquote>
+            “I found a failed payment three days later while doing reconciliation. We should have known about it immediately.”
+            <cite>F010 · Support · Finance</cite>
+          </blockquote>
+          <blockquote>
+            “Please don’t automate everything. I need to be able to check and approve financial adjustments.”
+            <cite>F033 · Survey · Finance</cite>
+          </blockquote>
+        </div>
+
+        <div class="sample-actions">
+          <button id="load-analysis" class="primary-action" type="button">Explore the sample analysis</button>
+          <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/data/sample-feedback.csv" target="_blank" rel="noopener">View all 40 records ↗</a>
+        </div>
+        <p class="demo-note">For transparency: this public demo loads a pre-generated sample analysis. It does not call a live model or send data to a server.</p>
+      </div>
+    </section>
+
+    <section id="analysis" class="analysis-section" aria-labelledby="analysis-heading" hidden>
+      <div class="analysis-heading">
+        <div>
+          <p class="section-label">STEP 2 · REVIEW FINDINGS</p>
+          <h2 id="analysis-heading" tabindex="-1">Inspect the evidence before accepting the interpretation.</h2>
+        </div>
+        <p>AI findings are proposals. Expand the cited evidence, edit the interpretation and record a human decision.</p>
+      </div>
+
+      <div id="findings" class="findings"></div>
+
+      <div class="export-panel">
+        <div>
+          <h2>Keep the human decision</h2>
+          <p>Exporting the review preserves the source finding, any edits, the decision and the reviewer’s note.</p>
+        </div>
+        <div class="export-actions">
+          <button id="download-review" class="primary-action" type="button">Download reviewed findings</button>
+          <button id="reset-review" class="secondary-action" type="button">Reset review</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="build-note">
+      <p class="section-label">WHAT THIS DEMONSTRATES</p>
+      <h2>AI assists. Product judgement decides.</h2>
+      <p>The underlying prototype can analyse an uploaded CSV with an LLM. The public version focuses on the higher-value product question: can a reviewer trace, challenge and govern the output?</p>
+      <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant" target="_blank" rel="noopener">View the product brief, decision log and implementation on GitHub ↗</a>
+    </section>
+  </main>
+
+  <footer><strong>Rhys Dowsall</strong><span>·</span> Product Manager · Product Owner · Business Analyst</footer>
+</body>
+</html>
