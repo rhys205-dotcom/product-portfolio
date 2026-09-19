@@ -32,10 +32,10 @@ The product direction, examples and editorial decisions are my own. AI-assisted 
 
 ## Current roadmap
 
-- Complete the interactive “Would you ship it?” AI decision exercise
-- Expand selected work into concise case studies
+- Add deeper evidence to the remaining selected-work case studies
 - Add clearer experience dates and context
-- Continue accessibility and mobile testing
+- Introduce privacy-conscious usage analytics
+- Continue accessibility, performance and mobile testing
 
 ## Contact
 
