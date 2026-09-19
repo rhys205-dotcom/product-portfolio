@@ -19,6 +19,7 @@
   <title>Rhys Dowsall | Product Manager · Product Owner · Business Analyst</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="case-study.css">
   <script src="script.js" defer></script>
   <script type="application/ld+json">
   {
@@ -98,11 +99,30 @@
         <p>Not a catalogue of job descriptions — a few examples of the problems I've worked through and the decisions behind them.</p>
       </div>
       <div class="cases">
-        <article>
-          <p class="number">01 · PAYMENTS & SAAS</p>
-          <h3>Scaling digital payments</h3>
-          <p>Owned improvements around payment links, card and ACH processing, settlement and retry behaviour within PlotBox's finance product.</p>
-          <p class="result">Outcome: monthly throughput grew from approximately $230k to $1.5m.</p>
+        <article class="featured-case">
+          <div class="case-intro">
+            <p class="number">01 · PAYMENTS & SAAS · PLOTBOX</p>
+            <h3>Scaling digital payments—without scaling the risk</h3>
+            <p>As Product Owner for the Finance stream, I worked across payment links, card and ACH workflows, bulk processing, settlement and reconciliation as PlotBox Pay moved into a higher-volume phase.</p>
+          </div>
+          <div class="case-details">
+            <div>
+              <strong>The problem</strong>
+              <p>Payment capability had to support more volume and more complex customer workflows while preserving financial controls, clear status visibility and a safe release path.</p>
+            </div>
+            <div>
+              <strong>Product decisions</strong>
+              <p>I shaped a card-first bulk-payments MVP, separated ACH as a follow-on, defined confirmation, permission and reporting safeguards, and used feature flags and controlled customer validation.</p>
+            </div>
+            <div>
+              <strong>Delivery constraints</strong>
+              <p>The work crossed customer operations, finance, Engineering and external payment services. Security gaps and reconciliation needs meant release readiness mattered as much as feature scope.</p>
+            </div>
+            <div class="case-outcome">
+              <strong>Programme outcome</strong>
+              <p>Monthly PlotBox Pay throughput grew from approximately <b>$230k to $1.5m</b> over roughly six months. That is programme-level context—not a claim that one feature caused the full increase.</p>
+            </div>
+          </div>
         </article>
         <article>
           <p class="number">02 · REGULATED FINTECH</p>
