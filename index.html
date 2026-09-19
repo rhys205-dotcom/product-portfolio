@@ -144,55 +144,53 @@
     <section id="lab" class="product-lab-wrap">
       <div class="product-lab">
         <div class="lab-copy">
-          <p class="section-label">PRODUCT LAB · EXPERIMENT 01</p>
-          <h2>Would you ship it?</h2>
-          <p class="lab-lead">94% accuracy sounds pretty good. But is it good enough?</p>
-          <p>A two-minute experiment in AI product judgement, risk and making decisions with incomplete information.</p>
-          <a class="button light" href="#decision-exercise">Make the call ↓</a>
+          <p class="section-label">PRODUCT LAB · PRODUCT JUDGEMENT</p>
+          <h2>A decision, not a demo.</h2>
+          <p class="lab-lead">A short, illustrative scenario about releasing AI into a regulated customer journey.</p>
+          <p>There is no score and no trick answer. The point is to make the trade-offs visible—and show the questions I would ask before committing to a release.</p>
         </div>
+
         <div id="decision-exercise" class="decision-card" aria-label="Interactive AI product decision exercise">
           <div id="decision-start">
-            <p class="scenario">AI FEATURE EVALUATION · STAGE 1 OF 2</p>
-            <strong>94%</strong>
-            <span>accuracy</span>
-            <div class="mini-metrics"><span>2.1% hallucination</span><span>+17% CSAT</span><span>£0.11 / conversation</span></div>
-            <h3 class="question">Would you ship it?</h3>
-            <p class="decision-help">Choose using the evidence available. You can revise your call when more context appears.</p>
-            <div class="choices" role="group" aria-label="Initial decision">
-              <button type="button" data-initial-decision="Ship">Ship</button>
-              <button type="button" data-initial-decision="Don't ship">Don't ship</button>
-              <button type="button" data-initial-decision="Need more evidence">Need more evidence</button>
-            </div>
-          </div>
+            <p class="scenario">ILLUSTRATIVE SCENARIO · REGULATED CUSTOMER SUPPORT</p>
+            <h3>An AI assistant is ready to answer customer account questions.</h3>
+            <p class="scenario-copy">The pilot data looks promising, but some incorrect answers concern payment dates, balances and arrears.</p>
 
-          <div id="decision-evidence" class="decision-stage" hidden>
-            <p class="scenario">NEW EVIDENCE · STAGE 2 OF 2</p>
-            <p class="choice-summary">Your initial call: <strong id="initial-choice"></strong></p>
-            <h3 tabindex="-1">The errors are not evenly distributed.</h3>
-            <p>Some customers receive incorrect payment dates, account balances and arrears information. Aggregate accuracy hides a small number of potentially high-impact failures.</p>
-            <div class="risk-signal"><strong>High-severity risk</strong><span>Financial harm and loss of customer trust</span></div>
-            <p class="question">What is your decision now?</p>
-            <div class="choices" role="group" aria-label="Revised decision">
-              <button type="button" data-revised-decision="Ship broadly">Ship broadly</button>
-              <button type="button" data-revised-decision="Run a controlled pilot">Controlled pilot</button>
-              <button type="button" data-revised-decision="Pause the launch">Pause launch</button>
+            <div class="decision-metrics" aria-label="Scenario evidence">
+              <div><strong>94%</strong><span>overall accuracy</span></div>
+              <div><strong>+17%</strong><span>customer satisfaction</span></div>
+              <div><strong>2.1%</strong><span>high-risk answer errors</span></div>
+              <div><strong>−22%</strong><span>assisted contacts</span></div>
             </div>
+
+            <h3 class="question">What would you do?</h3>
+            <p class="decision-help">Choose a release approach, or skip straight to the reasoning.</p>
+            <div class="choices" role="group" aria-label="Release decision">
+              <button type="button" data-decision="Ship broadly">Ship broadly</button>
+              <button type="button" data-decision="Pilot with controls">Pilot with controls</button>
+              <button type="button" data-decision="Pause and investigate">Pause and investigate</button>
+            </div>
+            <button id="show-reasoning" class="reasoning-toggle" type="button">Show how I’d approach it</button>
           </div>
 
           <div id="decision-result" class="decision-stage" aria-live="polite" hidden>
-            <p class="scenario">MY PRODUCT CALL</p>
-            <p class="choice-summary">Your revised call: <strong id="revised-choice"></strong></p>
-            <h3 tabindex="-1">Run a controlled, low-risk pilot.</h3>
-            <p>Do not approve a broad release from an aggregate accuracy score. Preserve the value while containing the risk:</p>
+            <p class="scenario">MY PRODUCT APPROACH</p>
+            <p id="visitor-choice-summary" class="choice-summary" hidden>Your call: <strong id="visitor-choice"></strong></p>
+            <h3 tabindex="-1">Pilot with controls—and make the risk measurable.</h3>
+            <p>The aggregate result is encouraging, but accuracy alone cannot justify a broad release when a small number of failures could cause financial harm.</p>
             <ul>
-              <li>Block autonomous answers for payments, balances and arrears.</li>
-              <li>Route high-risk or uncertain cases to a person.</li>
-              <li>Measure errors by severity and customer impact—not just volume.</li>
-              <li>Set stopping thresholds, monitor the pilot and expand only when the evidence supports it.</li>
+              <li>Block autonomous answers about balances, arrears and payment commitments.</li>
+              <li>Route uncertain and high-impact cases to a person.</li>
+              <li>Measure errors by severity and customer impact, not only volume.</li>
+              <li>Define audit, rollback and stopping thresholds before expanding.</li>
             </ul>
-            <p class="decision-takeaway">The important skill is not guessing the “right” first answer. It is identifying missing evidence and adapting the release plan when the risk changes.</p>
+            <div class="risk-signal">
+              <strong>Questions before release</strong>
+              <span>Where do errors cluster? Who can be harmed? Can every answer be traced? How quickly can the feature be stopped?</span>
+            </div>
+            <p class="decision-takeaway">The goal is not to avoid risk entirely. It is to preserve the customer value while containing, observing and learning from the risk.</p>
             <div class="decision-actions">
-              <button id="reset-decision" class="reset-button" type="button">Try again</button>
+              <button id="reconsider-decision" class="reset-button" type="button">Consider another option</button>
               <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant" target="_blank" rel="noopener">Explore my AI project ↗</a>
             </div>
           </div>
