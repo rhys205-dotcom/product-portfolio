@@ -86,3 +86,44 @@
     grid-column: auto;
   }
 }
+
+
+/* Compact supporting evidence for the Avant Money case */
+.avant-case {
+  min-height: 0 !important;
+}
+
+.compact-evidence {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 18px;
+  margin-top: 18px;
+}
+
+.compact-evidence > div {
+  border-top: 1px solid #dddcd6;
+  padding: 13px 0;
+}
+
+.compact-evidence strong {
+  color: #6a747c;
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.compact-evidence p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #4d5861;
+}
+
+.compact-evidence b {
+  color: #17212b;
+}
+
+@media (max-width: 520px) {
+  .compact-evidence {
+    grid-template-columns: 1fr;
+  }
+}
