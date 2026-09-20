@@ -17,6 +17,7 @@ LinkedIn is the source of truth for employers, titles and dates. The portfolio p
 ## Selected work
 
 - Scaling digital payments and improving financial workflows at PlotBox
+- Designing and validating a one-way NetSuite journal-export workflow with customer-managed mappings and audit safeguards
 - Delivering PSD2 Strong Customer Authentication and digital banking journeys at Avant Money
 - Rolling out consent management across seven public websites
 - Building an [AI Product Discovery Assistant](https://dowsall.com/discovery-assistant) that keeps source evidence and human review visible
