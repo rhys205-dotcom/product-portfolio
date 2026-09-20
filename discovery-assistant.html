@@ -12,7 +12,7 @@
   <meta property="og:description" content="An interactive demonstration of evidence-linked product discovery with human review.">
   <title>AI Product Discovery Assistant | Rhys Dowsall</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="discovery-assistant.css?v=1">
+  <link rel="stylesheet" href="discovery-assistant.css?v=2">
   <script src="discovery-assistant.js?v=1" defer></script>
 </head>
 <body>
@@ -70,6 +70,46 @@
           <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/data/sample-feedback.csv" target="_blank" rel="noopener">View all 40 records ↗</a>
         </div>
         <p class="demo-note">For transparency: this public demo loads a pre-generated sample analysis. It does not call a live model or send data to a server.</p>
+      </div>
+    </section>
+
+    <section class="benchmark-section" aria-labelledby="benchmark-heading">
+      <div class="benchmark-intro">
+        <div>
+          <p class="section-label">CONTROLLED EVALUATION · 3 INDEPENDENT RUNS</p>
+          <h2 id="benchmark-heading">Strong evidence tracing. Incomplete theme coverage.</h2>
+        </div>
+        <p>The same 40-record synthetic dataset, model and prompt were used for each run. Every generated theme was mapped to a documented human reference before scoring.</p>
+      </div>
+
+      <div class="benchmark-metrics" aria-label="Benchmark results">
+        <article>
+          <strong>100%</strong>
+          <span>citation validity</span>
+          <small>Every cited feedback ID existed in the source dataset.</small>
+        </article>
+        <article>
+          <strong>95.5%</strong>
+          <span>mean evidence precision</span>
+          <small>Citations usually supported the theme they were attached to.</small>
+        </article>
+        <article>
+          <strong>66.7%</strong>
+          <span>mean theme coverage</span>
+          <small>Two of the three human-reference themes were found consistently.</small>
+        </article>
+      </div>
+
+      <div class="benchmark-finding">
+        <div>
+          <strong>What the model missed</strong>
+          <p>All three runs found the two dominant operational problems but missed the smaller payment communication and audit-history theme. Relevant records were often retrieved but grouped into a broader payment-status theme.</p>
+        </div>
+        <div>
+          <strong>Product decision</strong>
+          <p>Treat theme separation as the next experiment and keep RAG deferred. The evidence points to a grouping and coverage problem—not a failure to retrieve the source records.</p>
+          <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/evaluation/results.md" target="_blank" rel="noopener">Review every run and limitation ↗</a>
+        </div>
       </div>
     </section>
 
