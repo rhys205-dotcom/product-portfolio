@@ -12,7 +12,7 @@
   <meta property="og:description" content="An interactive demonstration of evidence-linked product discovery with human review.">
   <title>AI Product Discovery Assistant | Rhys Dowsall</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="discovery-assistant.css?v=2">
+  <link rel="stylesheet" href="discovery-assistant.css?v=3">
   <script src="discovery-assistant.js?v=1" defer></script>
 </head>
 <body>
@@ -111,6 +111,12 @@
           <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/evaluation/results.md" target="_blank" rel="noopener">Review every run and limitation ↗</a>
         </div>
       </div>
+
+      <aside class="benchmark-method" aria-label="Benchmark scope and methodology">
+        <strong>Scope and methodology</strong>
+        <p>This is a directional benchmark using one 40-record synthetic dataset, one model and one fixed prompt—not evidence of performance on larger or real-world datasets. “Independent runs” means three separate API calls using identical recorded inputs; no result was excluded.</p>
+        <p>AI-assisted development helped implement the prototype and draft supporting artefacts. I retained responsibility for the product framing, reviewed the theme mappings, made the evaluation decisions and approved the published conclusions.</p>
+      </aside>
     </section>
 
     <section id="analysis" class="analysis-section" aria-labelledby="analysis-heading" hidden>
