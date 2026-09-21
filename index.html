@@ -20,7 +20,6 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css?v=20260920-1">
   <link rel="stylesheet" href="case-study.css?v=20260920-1">
-  <script src="script.js?v=20260920-1" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -42,7 +41,6 @@
     <a class="brand" href="#top" aria-label="Rhys Dowsall home">RD</a>
     <nav aria-label="Primary navigation">
       <a href="#work">Work</a>
-      <a href="#lab">Product Lab</a>
       <a href="#approach">How I work</a>
       <a href="https://www.linkedin.com/in/dowsall/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/rhys205-dotcom" target="_blank" rel="noopener">GitHub</a>
@@ -52,7 +50,6 @@
       <summary aria-label="Open navigation">Menu</summary>
       <div>
         <a href="#work">Work</a>
-        <a href="#lab">Product Lab</a>
         <a href="#approach">How I work</a>
         <a href="https://www.linkedin.com/in/dowsall/" target="_blank" rel="noopener">LinkedIn ↗</a>
         <a href="https://github.com/rhys205-dotcom" target="_blank" rel="noopener">GitHub ↗</a>
@@ -177,69 +174,12 @@
           <p class="number">04 · AI &amp; PRODUCT DISCOVERY</p>
           <h3>AI Product Discovery Assistant</h3>
           <p>I built a working review prototype that turns unstructured customer feedback into evidence-linked findings and proposed opportunities, with human review kept explicit.</p>
-          <p class="project-context">Try the public review workflow using synthetic feedback, evidence-linked findings and explicit human accept/edit/reject decisions.</p>
+          <p class="project-context"><strong>Controlled evaluation:</strong> three Gemini runs achieved 100% citation validity and 95.5% mean evidence precision, while exposing a repeatable theme-coverage gap for human review.</p>
           <div class="project-links">
             <a class="demo-link" href="discovery-assistant.html">Try the interactive demo →</a>
             <a class="text-link" href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant" target="_blank" rel="noopener">View the product thinking ↗</a>
           </div>
         </article>
-      </div>
-    </section>
-
-    <section id="lab" class="product-lab-wrap">
-      <div class="product-lab">
-        <div class="lab-copy">
-          <p class="section-label">PRODUCT LAB · PRODUCT JUDGEMENT</p>
-          <h2>A decision, not a demo.</h2>
-          <p class="lab-lead">A short, illustrative scenario about releasing AI into a regulated customer journey.</p>
-          <p>There is no score and no trick answer. The point is to make the trade-offs visible—and show the questions I would ask before committing to a release.</p>
-        </div>
-
-        <div id="decision-exercise" class="decision-card" aria-label="Interactive AI product decision exercise">
-          <div id="decision-start">
-            <p class="scenario">ILLUSTRATIVE SCENARIO · REGULATED CUSTOMER SUPPORT</p>
-            <h3>An AI assistant is ready to answer customer account questions.</h3>
-            <p class="scenario-copy">The pilot data looks promising, but some incorrect answers concern payment dates, balances and arrears.</p>
-
-            <div class="decision-metrics" aria-label="Scenario evidence">
-              <div><strong>94%</strong><span>overall accuracy</span></div>
-              <div><strong>+17%</strong><span>customer satisfaction</span></div>
-              <div><strong>2.1%</strong><span>high-risk answer errors</span></div>
-              <div><strong>−22%</strong><span>assisted contacts</span></div>
-            </div>
-
-            <h3 class="question">What would you do?</h3>
-            <p class="decision-help">Choose a release approach, or skip straight to the reasoning.</p>
-            <div class="choices" role="group" aria-label="Release decision">
-              <button type="button" data-decision="Ship broadly">Ship broadly</button>
-              <button type="button" data-decision="Pilot with controls">Pilot with controls</button>
-              <button type="button" data-decision="Pause and investigate">Pause and investigate</button>
-            </div>
-            <button id="show-reasoning" class="reasoning-toggle" type="button">Show how I’d approach it</button>
-          </div>
-
-          <div id="decision-result" class="decision-stage" aria-live="polite" hidden>
-            <p class="scenario">MY PRODUCT APPROACH</p>
-            <p id="visitor-choice-summary" class="choice-summary" hidden>Your call: <strong id="visitor-choice"></strong></p>
-            <h3 tabindex="-1">Pilot with controls—and make the risk measurable.</h3>
-            <p>The aggregate result is encouraging, but accuracy alone cannot justify a broad release when a small number of failures could cause financial harm.</p>
-            <ul>
-              <li>Block autonomous answers about balances, arrears and payment commitments.</li>
-              <li>Route uncertain and high-impact cases to a person.</li>
-              <li>Measure errors by severity and customer impact, not only volume.</li>
-              <li>Define audit, rollback and stopping thresholds before expanding.</li>
-            </ul>
-            <div class="risk-signal">
-              <strong>Questions before release</strong>
-              <span>Where do errors cluster? Who can be harmed? Can every answer be traced? How quickly can the feature be stopped?</span>
-            </div>
-            <p class="decision-takeaway">The goal is not to avoid risk entirely. It is to preserve the customer value while containing, observing and learning from the risk.</p>
-            <div class="decision-actions">
-              <button id="reconsider-decision" class="reset-button" type="button">Consider another option</button>
-              <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant" target="_blank" rel="noopener">Explore my AI project ↗</a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
