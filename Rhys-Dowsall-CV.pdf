@@ -1,122 +1,207 @@
 %PDF-1.4
-%ABCD ReportLab Generated PDF document (opensource)
+%‚„œ”
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Author (\050anonymous\051)
+/CreationDate (D\07220260925012233\05300\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220260925012233\05300\04700\047)
+/Subject (\050unspecified\051)
+/Title (\050anonymous\051)
+/Trapped (\057False)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
->>
-endobj
-6 0 obj
-<<
-/Author (\(anonymous\)) /CreationDate (D:20260925012233+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260925012233+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
->>
-endobj
-7 0 obj
-<<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
->>
-endobj
-8 0 obj
-<<
-/Length 8441
+/Length 9008
 >>
 stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
 q
 1 0 0 1 37.1811 788.378 cm
 q
-.094118 .168627 .215686 rg
-BT 1 0 0 1 0 1 Tm /F2 21 Tf 22 TL 175.2912 0 Td (RHYS DOWSALL) Tj T* -175.2912 0 Td ET
+0.094118 0.168627 0.215686 rg
+BT
+1 0 0 1 0 1 Tm
+/F2 21 Tf
+22 TL
+175.2912 0 Td
+(RHYS DOWSALL) Tj
+T*
+-175.2912 0 Td
+ET
 Q
 Q
 q
 1 0 0 1 37.1811 774.378 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.6 Tm /F2 9.4 Tf 11 TL 112.12 0 Td (PRODUCT MANAGER | PRODUCT OWNER | BUSINESS ANALYSIS) Tj T* -112.12 0 Td ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.6 Tm
+/F2 9.4 Tf
+11 TL
+112.12 0 Td
+(PRODUCT MANAGER \174 PRODUCT OWNER \174 BUSINESS ANALYSIS) Tj
+T*
+-112.12 0 Td
+ET
 Q
 Q
 q
 1 0 0 1 37.1811 761.378 cm
 q
-.333333 .333333 .333333 rg
-BT 1 0 0 1 0 1.9 Tm /F1 8.1 Tf 10 TL 123.5505 0 Td (rhys@dowsall.com | dowsall.com | linkedin.com/in/dowsall | Northern Ireland) Tj T* -123.5505 0 Td ET
+0.333333 0.333333 0.333333 rg
+BT
+1 0 0 1 0 1.9 Tm
+/F1 8.1 Tf
+10 TL
+123.5505 0 Td
+(rhys\100dowsall\056com \174 dowsall\056com \174 linkedin\056com\057in\057dowsall \174 Northern Ireland) Tj
+T*
+-123.5505 0 Td
+ET
 Q
 Q
 q
 1 0 0 1 31.1811 317.1008 cm
 q
 0 0 0 rg
-BT /F1 10 Tf 12 TL ET
+BT
+/F1 10 Tf
+12 TL
+ET
 q
 1 0 0 1 0 137.8772 cm
 q
 0 0 0 rg
-BT /F1 10 Tf 12 TL ET
+BT
+/F1 10 Tf
+12 TL
+ET
 q
 1 0 0 1 0 288.4 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.5 Tm /F2 9.5 Tf 11 TL (PROFILE) Tj T* ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(PROFILE) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 246.2 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 31.05 Tm /F1 8.15 Tf 9.8 TL (Product Manager / Product Owner with 7+ years experience across regulated financial services, payments,) Tj T* (SaaS and digital platforms. Strong in product discovery, roadmap and backlog ownership, complex) Tj T* (requirements, governance and systems integration. Combines customer and commercial judgement with) Tj T* (hands-on delivery leadership and current applied-AI product literacy.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 31.05 Tm
+/F1 8.15 Tf
+9.8 TL
+(Product Manager \057 Product Owner with 7\053 years experience across regulated financial services\054 payments\054) Tj
+T*
+(SaaS and digital platforms\056 Strong in product discovery\054 roadmap and backlog ownership\054 complex) Tj
+T*
+(requirements\054 governance and systems integration\056 Combines customer and commercial judgement with) Tj
+T*
+(hands\055on delivery leadership and current applied\055AI product literacy\056) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 231.2 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.5 Tm /F2 9.5 Tf 11 TL (EXPERIENCE) Tj T* ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 9.5 Tf
+11 TL
+(EXPERIENCE) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 218.2 cm
 q
-BT 1 0 0 1 0 1.55 Tm 10 TL /F2 8.45 Tf .133333 .133333 .133333 rg (Independent Product & AI Work | 2025-2026) Tj T* ET
+BT
+1 0 0 1 0 1.55 Tm
+10 TL
+/F2 8.45 Tf
+0.133333 0.133333 0.133333 rg
+(Independent Product \046 AI Work \174 2025\0552026) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 198.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Built and evaluated an AI Product Discovery Assistant that turns qualitative feedback into evidence-linked) Tj T* 6 0 Td (findings while keeping human review explicit.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Built and evaluated an AI Product Discovery Assistant that turns qualitative feedback into evidence\055linked) Tj
+T*
+6 0 Td
+(findings while keeping human review explicit\056) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 178.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Supported early-stage discovery for construction software, including customer/problem exploration, backlog) Tj T* 6 0 Td (stories, validation activity and grant-application support.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Supported early\055stage discovery for construction software\054 including customer\057problem exploration\054 backlog) Tj
+T*
+6 0 Td
+(stories\054 validation activity and grant\055application support\056) Tj
+T*
+ET
 Q
 Q
 q
@@ -125,29 +210,65 @@ Q
 q
 1 0 0 1 0 165.2 cm
 q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 1.55 Tm /F2 8.45 Tf 10 TL (Product Owner - Finance, PlotBox | Jul 2024-Jul 2025) Tj T* ET
+0.133333 0.133333 0.133333 rg
+BT
+1 0 0 1 0 1.55 Tm
+/F2 8.45 Tf
+10 TL
+(Product Owner \055 Finance\054 PlotBox \174 Jul 2024\055Jul 2025) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 145.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Owned roadmap, discovery and delivery across payments and finance capabilities including card/ACH) Tj T* 6 0 Td (workflows, payment links, settlement, reconciliation, reporting and finance exports.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Owned roadmap\054 discovery and delivery across payments and finance capabilities including card\057ACH) Tj
+T*
+6 0 Td
+(workflows\054 payment links\054 settlement\054 reconciliation\054 reporting and finance exports\056) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 125.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Supported PlotBox Pay as monthly throughput grew from about $230k to $1.5m over roughly six months,) Tj T* 6 0 Td (while balancing scale, controls and release readiness.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Supported PlotBox Pay as monthly throughput grew from about \044230k to \0441\0565m over roughly six months\054) Tj
+T*
+6 0 Td
+(while balancing scale\054 controls and release readiness\056) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 105.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Led product/business analysis for a phased NetSuite journal-export integration, replacing a nine-step) Tj T* 6 0 Td (manual process with an auditable API path, mappings and sandbox validation.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Led product\057business analysis for a phased NetSuite journal\055export integration\054 designed and) Tj
+T*
+6 0 Td
+(sandbox\055tested an API path intended to replace a nine\055step manual process\056) Tj
+T*
+ET
 Q
 Q
 q
@@ -156,29 +277,65 @@ Q
 q
 1 0 0 1 0 92.2 cm
 q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 1.55 Tm /F2 8.45 Tf 10 TL (Digital Product Manager, Avant Money | Feb 2019-Jul 2024) Tj T* ET
+0.133333 0.133333 0.133333 rg
+BT
+1 0 0 1 0 1.55 Tm
+/F2 8.45 Tf
+10 TL
+(Digital Product Manager\054 Avant Money \174 Feb 2019\055Jul 2024) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 72.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Owned product prioritisation for the mobile app and led delivery through developers and QA; MVP) Tj T* 6 0 Td (capabilities included payments, transactions, balance, biometrics and wallet support.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Owned product prioritisation for the mobile app and led delivery through developers and QA\073 MVP) Tj
+T*
+6 0 Td
+(capabilities included payments\054 transactions\054 balance\054 biometrics and wallet support\056) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 52.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Delivered PSD2 Strong Customer Authentication to a fixed regulatory deadline, coordinating requirements,) Tj T* 6 0 Td (testing, governance and operational readiness.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Delivered PSD2 Strong Customer Authentication to a fixed regulatory deadline\054 coordinating requirements\054) Tj
+T*
+6 0 Td
+(testing\054 governance and operational readiness\056) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 32.6 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 8 10.65 Tm /F1 7.95 Tf 9.3 TL -6 0 Td (- Led OneTrust / Google Tag Manager consent management across seven websites; documented) Tj T* 6 0 Td (remediation reduced 20+ unauthorised cookies to zero.) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 8 10.65 Tm
+/F1 7.95 Tf
+9.3 TL
+-6 0 Td
+(\055 Led OneTrust \057 GTM consent management across seven sites\073 post\055remediation checks reduced) Tj
+T*
+6 0 Td
+(20\053 identified unauthorised cookies to zero\056) Tj
+T*
+ET
 Q
 Q
 q
@@ -187,14 +344,29 @@ Q
 q
 1 0 0 1 0 19.2 cm
 q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 1.55 Tm /F2 8.45 Tf 10 TL (Earlier experience) Tj T* ET
+0.133333 0.133333 0.133333 rg
+BT
+1 0 0 1 0 1.55 Tm
+/F2 8.45 Tf
+10 TL
+(Earlier experience) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 0 0 cm
 q
-BT 1 0 0 1 0 10.45 Tm 9.1 TL /F1 7.75 Tf .2 .2 .2 rg (Vodafone Ireland GovCare - service delivery \(2017-2018\) | First Derivatives / KX - Business Development) Tj T* (Executive \(2016-2017\) | LexisNexis - Legal Research & Training Analyst \(2007-2016\)) Tj T* ET
+BT
+1 0 0 1 0 10.45 Tm
+9.1 TL
+/F1 7.75 Tf
+0.2 0.2 0.2 rg
+(Vodafone Ireland GovCare \055 service delivery \0502017\0552018\051 \174 First Derivatives \057 KX \055 Business Development) Tj
+T*
+(Executive \0502016\0552017\051 \174 LexisNexis \055 Legal Research \046 Training Analyst \0502007\0552016\051) Tj
+T*
+ET
 Q
 Q
 q
@@ -204,182 +376,377 @@ Q
 q
 1 0 0 1 394.0157 0 cm
 q
-.945098 .956863 .956863 rg
-n 0 437.2772 138.8976 -437.2772 re f*
+0.945098 0.956863 0.956863 rg
+n
+0 437.2772 138.8976 -437.2772 re
+f*
 0 0 0 rg
-BT /F1 10 Tf 12 TL ET
+BT
+/F1 10 Tf
+12 TL
+ET
 q
 1 0 0 1 11.33858 415.4386 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.3 Tm /F2 9.2 Tf 10.5 TL (CORE SKILLS) Tj T* ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 9.2 Tf
+10.5 TL
+(CORE SKILLS) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 403.4386 cm
 q
-BT 1 0 0 1 0 1.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Product strategy & roadmaps) Tj T* ET
+BT
+1 0 0 1 0 1.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Product strategy \046 roadmaps) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 392.8386 cm
 q
-BT 1 0 0 1 0 1.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Discovery & validation) Tj T* ET
+BT
+1 0 0 1 0 1.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Discovery \046 validation) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 382.2386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (Backlog prioritisation) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(Backlog prioritisation) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 371.6386 cm
 q
-BT 1 0 0 1 0 1.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Requirements & process analysis) Tj T* ET
+BT
+1 0 0 1 0 1.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Requirements \046 process analysis) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 361.0386 cm
 q
-BT 1 0 0 1 0 1.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (User stories & acceptance thinking) Tj T* ET
+BT
+1 0 0 1 0 1.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(User stories \046 acceptance thinking) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 350.4386 cm
 q
-BT 1 0 0 1 0 1.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Payments & finance workflows) Tj T* ET
+BT
+1 0 0 1 0 1.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Payments \046 finance workflows) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 339.8386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (API / systems integration) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(API \057 systems integration) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 329.2386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (Stakeholder management) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(Stakeholder management) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 318.6386 cm
 q
-BT 1 0 0 1 0 1.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Agile delivery & UAT) Tj T* ET
+BT
+1 0 0 1 0 1.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Agile delivery \046 UAT) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 299.0386 cm
 q
-BT 1 0 0 1 0 10.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Risk, governance & release) Tj T* (readiness) Tj T* ET
+BT
+1 0 0 1 0 10.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Risk\054 governance \046 release) Tj
+T*
+(readiness) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 279.4386 cm
 q
-BT 1 0 0 1 0 10.45 Tm 9 TL /F1 7.55 Tf .2 .2 .2 rg (Product analytics & customer) Tj T* (insight) Tj T* ET
+BT
+1 0 0 1 0 10.45 Tm
+9 TL
+/F1 7.55 Tf
+0.2 0.2 0.2 rg
+(Product analytics \046 customer) Tj
+T*
+(insight) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 268.8386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (Applied AI product evaluation) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(Applied AI product evaluation) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 252.7386 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.3 Tm /F2 9.2 Tf 10.5 TL (TOOLS) Tj T* ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 9.2 Tf
+10.5 TL
+(TOOLS) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 204.7386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 37.45 Tm /F1 7.55 Tf 9 TL (Jira | Confluence | Productboard |) Tj T* (OneTrust | GTM | Liferay |) Tj T* (Dynatrace | Google Analytics | Miro) Tj T* (| lightweight Python / AI-assisted) Tj T* (tooling) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 37.45 Tm
+/F1 7.55 Tf
+9 TL
+(Jira \174 Confluence \174 Productboard \174) Tj
+T*
+(OneTrust \174 GTM \174 Liferay \174) Tj
+T*
+(Dynatrace \174 Google Analytics \174 Miro) Tj
+T*
+(\174 lightweight Python \057 AI\055assisted) Tj
+T*
+(tooling) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 188.6386 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.3 Tm /F2 9.2 Tf 10.5 TL (QUALIFICATIONS) Tj T* ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 9.2 Tf
+10.5 TL
+(QUALIFICATIONS) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 167.6386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 10.45 Tm /F1 7.55 Tf 9 TL (IBM AI Product Manager) Tj T* (Professional Certificate - 2026) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 10.45 Tm
+/F1 7.55 Tf
+9 TL
+(IBM AI Product Manager) Tj
+T*
+(Professional Certificate \055 2026) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 139.0386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 19.45 Tm /F1 7.55 Tf 9 TL (UCD Professional Diploma, Digital) Tj T* (Product Management - Distinction,) Tj T* (2022) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 19.45 Tm
+/F1 7.55 Tf
+9 TL
+(UCD Professional Diploma\054 Digital) Tj
+T*
+(Product Management \055 Distinction\054) Tj
+T*
+(2022) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 128.4386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (Lean Six Sigma Green Belt - 2023) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(Lean Six Sigma Green Belt \055 2023) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 108.8386 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 10.45 Tm /F1 7.55 Tf 9 TL (ISC2 Certified in Cybersecurity) Tj T* (\(CC\) - 2023) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 10.45 Tm
+/F1 7.55 Tf
+9 TL
+(ISC2 Certified in Cybersecurity) Tj
+T*
+(\050CC\051 \055 2023) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 98.23858 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (Law LLB \(Hons\)) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(Law LLB \050Hons\051) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 82.13858 cm
 q
-.254902 .396078 .447059 rg
-BT 1 0 0 1 0 1.3 Tm /F2 9.2 Tf 10.5 TL (SELECTED EVIDENCE) Tj T* ET
+0.254902 0.396078 0.447059 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F2 9.2 Tf
+10.5 TL
+(SELECTED EVIDENCE) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 61.13858 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 10.45 Tm /F1 7.55 Tf 9 TL ($230k -> $1.5m monthly payments) Tj T* (throughput \(programme context\)) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 10.45 Tm
+/F1 7.55 Tf
+9 TL
+(\044230k \055\076 \0441\0565m monthly payments) Tj
+T*
+(throughput \050programme context\051) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 50.53858 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 1.45 Tm /F1 7.55 Tf 9 TL (7-site consent-management rollout) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 1.45 Tm
+/F1 7.55 Tf
+9 TL
+(7\055site consent\055management rollout) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 30.93858 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 10.45 Tm /F1 7.55 Tf 9 TL (20+ unauthorised cookies -> 0 after) Tj T* (remediation) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 10.45 Tm
+/F1 7.55 Tf
+9 TL
+(20\053 identified cookies \055\076 0 in) Tj
+T*
+(post\055remediation checks) Tj
+T*
+ET
 Q
 Q
 q
 1 0 0 1 11.33858 11.33858 cm
 q
-.2 .2 .2 rg
-BT 1 0 0 1 0 10.45 Tm /F1 7.55 Tf 9 TL (15+ customer interviews / 30+) Tj T* (insights in finance-period discovery) Tj T* ET
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 10.45 Tm
+/F1 7.55 Tf
+9 TL
+(Contact\055centre Digital Hub improved) Tj
+T*
+(first\055contact resolution and reduced escalations) Tj
+T*
+ET
 Q
 Q
 q
@@ -390,30 +757,50 @@ q
 Q
 Q
 Q
- 
+
 endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
 0 9
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000524 00000 n 
-0000000592 00000 n 
-0000000872 00000 n 
-0000000931 00000 n 
+0000000015 00000 n 
+0000000344 00000 n 
+0000000403 00000 n 
+0000000452 00000 n 
+0000000651 00000 n 
+0000009711 00000 n 
+0000009752 00000 n 
+0000009859 00000 n 
 trailer
 <<
-/ID 
-[<243a8f46aa165ed64beaeb3eec40a8a7><243a8f46aa165ed64beaeb3eec40a8a7>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 6 0 R
-/Root 5 0 R
 /Size 9
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-9423
+9971
 %%EOF

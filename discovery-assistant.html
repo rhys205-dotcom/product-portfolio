@@ -75,15 +75,15 @@
           <button id="load-analysis" class="primary-action" type="button">Explore the sample analysis</button>
           <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/data/sample-feedback.csv" target="_blank" rel="noopener">View all 40 records ↗</a>
         </div>
-        <p class="demo-note">For transparency: this public demo loads a pre-generated sample analysis. It does not call a live model or send data to a server.</p>
+        <p class="demo-note">For transparency: this public demo loads illustrative output that is separate from the stored benchmark runs. It does not call a live model or send data to a server.</p>
       </div>
     </section>
 
     <section class="benchmark-section" aria-labelledby="benchmark-heading">
       <div class="benchmark-intro">
         <div>
-          <p class="section-label">CONTROLLED EVALUATION · 3 INDEPENDENT RUNS</p>
-          <h2 id="benchmark-heading">Strong evidence tracing. Incomplete theme coverage.</h2>
+          <p class="section-label">HISTORICAL EVALUATION BASELINE · 3 INDEPENDENT RUNS</p>
+          <h2 id="benchmark-heading">Useful initial evidence—with important evaluation limits.</h2>
         </div>
         <p>The same 40-record synthetic dataset, model and prompt were used for each run. Every generated theme was mapped to a documented human reference before scoring.</p>
       </div>
@@ -113,7 +113,7 @@
         </div>
         <div>
           <strong>Product decision</strong>
-          <p>Treat theme separation as the next experiment and keep RAG deferred. The evidence points to a grouping and coverage problem—not a failure to retrieve the source records.</p>
+          <p>Keep these runs as historical evidence, repair scorer blind spots and evidence-integrity risks, then test targeted improvements with practitioner review. RAG remains deferred because no retrieval problem has been established.</p>
           <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/evaluation/results.md" target="_blank" rel="noopener">Review every run and limitation ↗</a>
         </div>
       </div>
@@ -121,6 +121,7 @@
       <aside class="benchmark-method" aria-label="Benchmark scope and methodology">
         <strong>Scope and methodology</strong>
         <p>This is a directional benchmark using one 40-record synthetic dataset, one model and one fixed prompt—not evidence of performance on larger or real-world datasets. “Independent runs” means three separate API calls using identical recorded inputs; no result was excluded.</p>
+        <p>The current scorer does not test whether every interpretation or opportunity is grounded. Unmatched findings can also escape some headline calculations, so the percentages should not be read as overall reliability scores.</p>
         <p>AI-assisted development helped implement the prototype and draft supporting artefacts. I retained responsibility for the product framing, reviewed the theme mappings, made the evaluation decisions and approved the published conclusions.</p>
       </aside>
     </section>
@@ -139,7 +140,7 @@
       <div class="export-panel">
         <div>
           <h2>Keep the human decision</h2>
-          <p>Exporting the review preserves the source finding, any edits, the decision and the reviewer’s note.</p>
+          <p>Exporting keeps the reviewed interpretation, human decision, reviewer note and cited evidence IDs together.</p>
         </div>
         <div class="export-actions">
           <button id="download-review" class="primary-action" type="button">Download reviewed findings</button>
