@@ -43,7 +43,6 @@ The public Discovery Assistant uses synthetic data and a pre-generated sample an
 ## Current status
 
 - Live portfolio and responsive case studies
-- Working interactive product-judgement exercise
 - Public Discovery Assistant review workflow
 - GitHub-connected Cloudflare deployment
 
