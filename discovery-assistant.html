@@ -102,26 +102,26 @@
         <article>
           <strong>66.7%</strong>
           <span>mean theme coverage</span>
-          <small>Two of the three human-reference themes were found consistently.</small>
+          <small>Two of the three human-reference distinctions were found consistently.</small>
         </article>
       </div>
 
       <div class="benchmark-finding">
         <div>
           <strong>What the model missed</strong>
-          <p>All three runs found the two dominant operational problems but missed the smaller payment communication and audit-history theme. Relevant records were often retrieved but grouped into a broader payment-status theme.</p>
+          <p>All three runs represented the two dominant operational problems but did not produce a separately mapped payment communication and audit-history finding. Some relevant records were grouped into the broader payment-status finding instead.</p>
         </div>
         <div>
           <strong>Product decision</strong>
-          <p>Keep these runs as historical evidence, repair scorer blind spots and evidence-integrity risks, then test targeted improvements with practitioner review. RAG remains deferred because no retrieval problem has been established.</p>
+          <p>The historical scorer has now been repaired and the reference is explicitly treated as contestable. The remaining foundation step is an independent blind practitioner review before deterministic evidence-integrity failures are fixed and the compact behavioural baseline is run. RAG remains deferred because no retrieval problem has been established.</p>
           <a href="https://github.com/rhys205-dotcom/ai-product-discovery-assistant/blob/main/evaluation/results.md" target="_blank" rel="noopener">Review every run and limitation ↗</a>
         </div>
       </div>
 
       <aside class="benchmark-method" aria-label="Benchmark scope and methodology">
         <strong>Scope and methodology</strong>
-        <p>This is a directional benchmark using one 40-record synthetic dataset, one model and one fixed prompt—not evidence of performance on larger or real-world datasets. “Independent runs” means three separate API calls using identical recorded inputs; no result was excluded.</p>
-        <p>The current scorer does not test whether every interpretation or opportunity is grounded. Unmatched findings can also escape some headline calculations, so the percentages should not be read as overall reliability scores.</p>
+        <p>This is a directional historical benchmark using one 40-record synthetic dataset, one model and one fixed prompt—not evidence of performance on larger or real-world datasets. “Independent runs” means three separate API calls using identical recorded inputs; no result was excluded.</p>
+        <p>The original scorer had blind spots around unmatched findings, duplicate mappings and some citation relationships. Scorer v2 now keeps those mechanically visible, but no automated score can establish that the human reference is the only valid analysis or that an interpretation is useful in practice.</p>
         <p>AI-assisted development helped implement the prototype and draft supporting artefacts. I retained responsibility for the product framing, reviewed the theme mappings, made the evaluation decisions and approved the published conclusions.</p>
       </aside>
     </section>
