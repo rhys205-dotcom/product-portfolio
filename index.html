@@ -79,6 +79,8 @@
         <span>·</span>
         <a href="https://github.com/rhys205-dotcom" target="_blank" rel="noopener">GitHub</a>
         <span>·</span>
+        <a href="#plotbox-pay">PlotBox Pay case</a>
+        <span>·</span>
         <a href="discovery-assistant.html">Discovery Assistant demo</a>
       </div>
     </section>
@@ -86,7 +88,7 @@
     <section id="impact" class="section impact-section">
       <p class="section-label">SELECTED IMPACT</p>
       <div class="metrics">
-        <article><strong>$230k → $1.5m</strong><span>programme throughput during my time as Finance PO, over roughly six months</span></article>
+        <article><strong>$230k → $1.5m</strong><span>monthly PlotBox Pay throughput during my time as Finance PO, over roughly six months</span></article>
         <article><strong>7 sites</strong><span>OneTrust consent platform rollout across public websites</span></article>
         <article><strong>PSD2 SCA</strong><span>delivered to a fixed regulatory deadline across affected digital journeys</span></article>
       </div>
@@ -101,32 +103,32 @@
         <p>Four examples of how I turned product and delivery constraints into practical decisions.</p>
       </div>
       <div class="cases">
-        <article class="featured-case">
+        <article class="featured-case" id="plotbox-pay">
           <div class="case-intro">
             <p class="number">01 · PAYMENTS & SAAS · PLOTBOX</p>
             <h3>Scaling digital payments with financial controls</h3>
-            <p>As Product Owner for the Finance stream, I worked across payment links, card and ACH workflows, bulk processing, settlement and reconciliation as PlotBox Pay moved into a higher-volume phase.</p>
+            <p>As Finance Product Owner, I worked on high-volume payment workflows while live finance issues and delayed delivery were affecting customer confidence.</p>
           </div>
           <div class="case-details">
             <div>
               <strong>The problem</strong>
-              <p>Payment capability had to support more volume and more complex customer workflows while preserving financial controls, clear status visibility and a safe release path.</p>
+              <p>A strategic customer needed bulk payment runs, but serious finance and platform issues needed attention first. The delay also undermined confidence in the roadmap.</p>
             </div>
             <div>
               <strong>Product decisions</strong>
-              <p>I shaped a card-first bulk-payments MVP, separated ACH as a follow-on, defined confirmation, permission and reporting safeguards, and used feature flags and controlled customer validation.</p>
+              <p>I prioritised stabilising the live finance product, then resumed bulk delivery with stored-card payments first and ACH to follow. With Tucson, I validated eligibility, payment-date filters, selected count and value, and final confirmation before processing.</p>
             </div>
             <div>
               <strong>Delivery constraints</strong>
-              <p>The work crossed customer operations, finance, Engineering and external payment services. Clear permissions, confirmation safeguards and reconciliation readiness mattered as much as feature scope.</p>
+              <p>Future scheduling stayed outside the first release. Feature flags, permissions and customer beta testing kept validation controlled. Peer review also exposed retry and failure-state gaps for further refinement.</p>
             </div>
             <div class="case-outcome">
-              <strong>Programme outcome</strong>
-              <p>Monthly PlotBox Pay throughput grew from approximately <b>$230k to $1.5m</b> over roughly six months. That is programme-level context—not a claim that one feature caused the full increase.</p>
+              <strong>What happened</strong>
+              <p>Tucson validated the core bulk-card flow in beta and subsequently used the capability in production. The beta walkthrough also exposed guidance and configuration issues to address.</p>
             </div>
           </div>
         </article>
-        <article class="avant-case integration-case">
+        <article class="avant-case integration-case" id="netsuite-integration">
           <p class="number">02 · TECHNICAL PRODUCT &amp; BUSINESS ANALYSIS · NETSUITE</p>
           <h3>Turning a nine-step finance process into an auditable integration</h3>
           <p>An enterprise customer needed to transfer PlotBox financial data into NetSuite. The existing process involved nine manual steps, nominal-code mismatches, repeated adjustments and developer involvement whenever mappings changed.</p>
